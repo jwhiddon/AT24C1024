@@ -54,8 +54,8 @@ class E24C1024
 {
   public:
     E24C1024();
-    void write(unsigned long, uint8_t);
-    uint8_t read(unsigned long);
+    static void write(unsigned long, uint8_t);
+    static uint8_t read(unsigned long);
 };
 
 extern E24C1024 EEPROM1024;
