@@ -49,7 +49,6 @@
 #define FULL_MASK 0x7FFFF
 #define DEVICE_MASK 0x7F0000
 #define WORD_MASK 0xFFFF
-
 class E24C1024
 {
   public:

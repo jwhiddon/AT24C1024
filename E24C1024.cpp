@@ -42,6 +42,7 @@
   
 */
 
+#include <Wire.h>
 #include "E24C1024.h"
 
 E24C1024::E24C1024(void)
