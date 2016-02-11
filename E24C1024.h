@@ -36,7 +36,7 @@
 
   The AT24C1024B provides 1,048,576 bits of serial electrically 
   erasable and programmable read only memory (EEPROM) organized 
-  as 131,072 words of 8 bits each. The device’s cascadable 
+  as 131,072 words of 8 bits each. The deviceâ€™s cascadable 
   feature allows up to four devices to share a common two-wire 
   bus.
   
@@ -44,7 +44,10 @@
   
 */
 
-#include <WConstants.h>
+#if defined(ARDUINO) && ARDUINO >= 100
+  #include "Arduino.h"
+#else
+  #include "WProgram.h"
 #include <Wire.h>
 #define FULL_MASK 0x7FFFF
 #define DEVICE_MASK 0x7F0000
