@@ -34,7 +34,7 @@
 
   The AT24C1024B provides 1,048,576 bits of serial electrically 
   erasable and programmable read only memory (EEPROM) organized 
-  as 131,072 words of 8 bits each. The device’s cascadable 
+  as 131,072 words of 8 bits each. The deviceâ€™s cascadable 
   feature allows up to four devices to share a common two-wire 
   bus.
   
@@ -67,7 +67,7 @@ uint8_t E24C1024::read(unsigned long dataAddress)
    Wire.send((uint8_t)((dataAddress & WORD_MASK) >> 8)); // MSB
    Wire.send((uint8_t)(dataAddress & 0xFF)); // LSB
    Wire.endTransmission();
-   Wire.requestFrom(0x50,1);
+   Wire.requestFrom((uint8_t)((0x500000 | dataAddress) >> 16),1);
    if (Wire.available()) data = Wire.receive();
    return data;
 }
