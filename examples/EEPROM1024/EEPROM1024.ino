@@ -1,5 +1,5 @@
 /*
-  EEPROM1024.pde
+  EEPROM1024.ino
   AT24C1024 EEPROM Benchmark Sketch 
   
   Our project page is here:
@@ -17,7 +17,7 @@
   
 */
 #include <Wire.h>
-#include <E24C1024.h>
+#include <AT24C1024.h>
 
 unsigned long time;
 unsigned long finishTime;
