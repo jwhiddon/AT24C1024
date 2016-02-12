@@ -29,8 +29,10 @@ This library is based on several projects:
 
 ## Releases
 
-### 1.0.1 - Feb 12, 2016
+### 1.0.2 - Feb 12, 2016
 * Update example sketch filename extensions to .ino
+* Change library name to match chipset name
+* More Arduino IDE compatibility changes 
 
 ### 1.0.0 - Feb 12, 2016
 * Updated to support Arduino 1.0.0+
