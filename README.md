@@ -14,9 +14,6 @@ EEPROM1024.write(address, value);
 
 [AT24C1024 Library Project Home at the Arduino Playground](http://playground.arduino.cc/Code/I2CEEPROM24C1024)
 
-## Examples
-* [EEPROM1024.pde](https://github.com/jwhiddon/arduino-at24c1024/blob/master/examples/EEPROM1024/)
-
 ## Credits
 This library is based on several projects:
 * [The Arduino EEPROM library](https://www.arduino.cc/en/Reference/EEPROM)
@@ -27,4 +24,13 @@ This library is based on several projects:
 * Unzip the download into your Arduino library directory
 * If the Arduino IDE is already running then exit and restart the Arduino IDE
 
+## Examples
+* [EEPROM1024.pde](https://github.com/jwhiddon/arduino-at24c1024/blob/master/examples/EEPROM1024/)
+
 ## Releases
+
+### Version 1.0.0 - Feb 29, 2016
+* Updated to support Arduino 1.0.0+
+* Migrate to github
+
+### Initial Release - Dec 8, 2009
