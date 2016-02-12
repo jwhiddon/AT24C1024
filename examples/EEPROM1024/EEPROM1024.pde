@@ -16,7 +16,6 @@
   http://www.atmel.com/dyn/resources/prod_documents/doc5194.pdf
   
 */
-#include "Arduino.h"
 #include <Wire.h>
 #include <E24C1024.h>
 
