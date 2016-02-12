@@ -18,15 +18,15 @@ Credits
 
 This library is based on several projects:
 
-The Arduino EEPROM library found here: http://arduino.cc/en/Reference/EEPROM
+The Arduino EEPROM library found here: https://www.arduino.cc/en/Reference/EEPROM
 
-The 24C256 library found here: http://www.arduino.cc/playground/Code/I2CEEPROM
+The 24C256 library found here: http://playground.arduino.cc/Code/I2CEEPROM
 
-The 24C512 library found here: http://www.arduino.cc/playground/Code/I2CEEPROM24LC512
+The 24C512 library found here: http://playground.arduino.cc/Code/I2CEEPROM24LC512
 
 Download
 
-http://code.google.com/p/arduino-at24c1024/downloads/list
+https://github.com/jwhiddon/arduino-at24c1024
 
 Installing
 
