@@ -44,10 +44,7 @@
   
 */
 
-#if defined(ARDUINO) && ARDUINO >= 100
-  #include "Arduino.h"
-#else
-  #include "WProgram.h"
+#include "Arduino.h"
 #include <Wire.h>
 #define FULL_MASK 0x7FFFF
 #define DEVICE_MASK 0x7F0000
