@@ -12,7 +12,7 @@ EEPROM.write(address, value);
 EEPROM1024.write(address, value);
 ```
 
-[AT24C1024 Library Project Home at the Arduino Playground]()
+[AT24C1024 Library Project Home at the Arduino Playground](http://playground.arduino.cc/Code/I2CEEPROM24C1024)
 
 ## Examples
 * [EEPROM1024.pde](https://github.com/jwhiddon/arduino-at24c1024/blob/master/examples/EEPROM1024/)
