@@ -1,21 +1,9 @@
 /*
   EEPROM1024.ino
   AT24C1024 EEPROM Benchmark Sketch 
-  
-  Our project page is here:
-  http://www.arduino.cc/playground/Code/I2CEEPROM24C1024
-  
-  From the datasheet:
-
-  The AT24C1024B provides 1,048,576 bits of serial electrically 
-  erasable and programmable read only memory (EEPROM) organized 
-  as 131,072 words of 8 bits each. The device’s cascadable 
-  feature allows up to four devices to share a common two-wire 
-  bus.
-  
-  http://www.atmel.com/dyn/resources/prod_documents/doc5194.pdf
-  
+  http://playground.arduino.cc/Code/I2CEEPROM24C1024
 */
+
 #include <Wire.h>
 #include <AT24C1024.h>
 
@@ -41,7 +29,7 @@ void setup()
   loop_size = random(1, 100);
   Serial.begin(9600);
   Serial.println();
-  Serial.println("AT24C1024 Library Benchmark Sketch");
+  Serial.println("AT24C1024 EEPROM Library Benchmark Sketch");
   Serial.println();
   writeByByteTest();
   readByByteTest();
