@@ -16,10 +16,7 @@
   http://www.atmel.com/dyn/resources/prod_documents/doc5194.pdf
   
 */
-#if defined(ARDUINO) && ARDUINO >= 100
-  #include "Arduino.h"
-#else
-  #include "WProgram.h"
+#include "Arduino.h"
 #include <Wire.h>
 #include <E24C1024.h>
 
