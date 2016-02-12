@@ -41,7 +41,7 @@ void setup()
   loop_size = random(1, 100);
   Serial.begin(9600);
   Serial.println();
-  Serial.println("E24C1024 Library Benchmark Sketch");
+  Serial.println("AT24C1024 Library Benchmark Sketch");
   Serial.println();
   writeByByteTest();
   readByByteTest();
@@ -111,4 +111,3 @@ void readByByteTest()
   Serial.println("--------------------------------");
   Serial.println();
 }
-
