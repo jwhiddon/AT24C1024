@@ -25,7 +25,7 @@ This library is based on several projects:
 * If the Arduino IDE is already running then exit and restart the Arduino IDE
 
 ## Examples
-* [EEPROM1024.pde](https://github.com/jwhiddon/arduino-at24c1024/blob/master/examples/EEPROM1024/)
+* [EEPROM1024.ino](https://github.com/jwhiddon/arduino-at24c1024/blob/master/examples/EEPROM1024/)
 
 ## Releases
 
