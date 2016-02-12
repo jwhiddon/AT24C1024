@@ -1,5 +1,5 @@
 /*
-  EEPROM1024.ino
+  AT24C1024_EEPROM_Benchmark.ino
   AT24C1024 EEPROM Benchmark Sketch 
   http://playground.arduino.cc/Code/I2CEEPROM24C1024
 */
