@@ -1,0 +1,5 @@
+# Syntax Coloring Map for the Arduino AT24C1024 EEPROM library
+
+EEPROM1024	KEYWORD1
+read	KEYWORD2
+write	KEYWORD2
