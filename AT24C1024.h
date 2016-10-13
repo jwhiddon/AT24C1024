@@ -6,7 +6,7 @@
   http://www.arduino.cc/playground/Code/I2CEEPROM24C1024
 */
 
-#ifdef ARDUINO >= 100
+#if ARDUINO >= 100
 #include "Arduino.h"
 #else
 extern "C" {
